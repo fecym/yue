@@ -1,0 +1,13 @@
+// scss 变量文件
+
+// 功能性按钮颜色
+$--button-color-feature: #F34F6C;
+$--button-color-feature-shadow: 0px 5px 16px 0px rgba(253,104,125,0.3);
+// 保存提交按钮颜色
+$--button-color-save: #3278FF;
+$--button-color-save-shadow: 0px 5px 16px 0px rgba(84,93,255,0.3);
+// 取消按钮颜色
+$--button-color-cancel: #C1D6FF;
+// 取消按钮边框颜色
+$--button-border-color-cancel: $--button-color-save;
+$--button-border-color-cancel-shadow: 0px 5px 16px 0px rgba(193, 214, 255, 0.4);

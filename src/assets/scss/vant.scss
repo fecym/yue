@@ -1,0 +1,11 @@
+// vant 样式替换
+@import './variables.scss';
+
+.van-button {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 15px;
+  box-shadow: $--button-color-save-shadow;
+}

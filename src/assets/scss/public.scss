@@ -1,0 +1,18 @@
+// 公共样式
+
+// 路由切换特效
+.route-switch-enter, .route-switch-leave-to {
+  // transform: translateX(-20px);
+  transition: all .15s ease-in-out 0s;
+  opacity: 0;
+}
+.route-switch-enter-active {
+  transition: all .15s ease-in-out 0s;
+}
+.route-switch-leave-active {
+  transition: all .15s ease-in-out 0s;
+  // transform: translateX(0px);
+}
+.route-switch-enter-to, .route-switch-leave {
+  opacity: 1;
+}
